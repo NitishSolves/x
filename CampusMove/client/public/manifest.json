@@ -1,0 +1,16 @@
+{
+  "short_name": "CampusMove",
+  "name": "CampusMove Campus Transportation",
+  "icons": [
+    {
+      "src": "/bus-icon.svg",
+      "type": "image/svg+xml",
+      "sizes": "192x192 512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#082849",
+  "theme_color": "#0e8ce9",
+  "display": "standalone",
+  "orientation": "portrait"
+}

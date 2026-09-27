@@ -1,0 +1,27 @@
+{
+  "name": "campusmove",
+  "version": "1.0.0",
+  "description": "CampusMove - Real-Time Smart Campus Transportation Platform",
+  "scripts": {
+    "dev:server": "npm --prefix server run dev",
+    "dev:client": "npm --prefix client run dev",
+    "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
+    "build:client": "npm --prefix client run build",
+    "migrate": "node server/src/db/migrate.js",
+    "seed": "node server/src/db/seed.js",
+    "start": "node server/src/index.js"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  },
+  "keywords": [
+    "campus",
+    "transportation",
+    "bus-tracking",
+    "real-time",
+    "gps",
+    "socket.io"
+  ],
+  "author": "CampusMove Team",
+  "license": "ISC"
+}
